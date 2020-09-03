@@ -66,7 +66,7 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 dns:
-  enable: true # 是否启用dns false
+  enable: false # 是否启用dns false
   ipv6: true
   listen: ':53'
   enhanced-mode: redir-host # 模式：redir-host或fake-ip
