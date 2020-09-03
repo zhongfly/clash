@@ -31,6 +31,9 @@ mode: rule
 # 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
 log-level: info
 
+# When set to false, resolver won't translate hostnames to IPv6 addresses
+ipv6: true
+
 # Clash 的 RESTful API
 external-controller: '127.0.0.1:9090'
 
@@ -64,8 +67,8 @@ experimental:
 
 dns:
   enable: true # 是否启用dns false
-  #ipv6: false
-  listen: 0.0.0.0:53
+  ipv6: true
+  listen: ':53'
   enhanced-mode: redir-host # 模式：redir-host或fake-ip
   #fake-ip-range: 198.18.0.1/16 #
   #fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
