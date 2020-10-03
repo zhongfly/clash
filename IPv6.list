@@ -1,8 +1,8 @@
 # cernet6
 # 2020-08-21
 # https://github.com/gaoyifan/china-operator-ip/blob/ip-lists/cernet6.txt
-IP-CIDR6,IP-CIDR6,2001:250::/31,no-resolve
-IP-CIDR6,IP-CIDR6,2001:252::/32,no-resolve
+IP-CIDR6,2001:250::/31,no-resolve
+IP-CIDR6,2001:252::/32,no-resolve
 IP-CIDR6,2001:256:100::/48,no-resolve
 IP-CIDR6,2001:7fa:5::/48,no-resolve
 IP-CIDR6,2001:c68::/32,no-resolve
