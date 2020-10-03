@@ -1,0 +1,3 @@
+# 所有IPv6地址
+IP-CIDR6,2001::/16,no-resolve
+IP-CIDR6,2002::/16,no-resolve
