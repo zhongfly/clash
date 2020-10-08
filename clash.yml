@@ -22,7 +22,7 @@ allow-lan: true
 # #"*": 绑定所有IP地址
 # #192.168.122.11: 绑定单个IPv4地址
 # #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
-# bind-address: "*"
+bind-address: "*"
 
 # 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
 mode: rule
@@ -32,7 +32,7 @@ mode: rule
 log-level: info
 
 # When set to false, resolver won't translate hostnames to IPv6 addresses
-ipv6: true
+ipv6: false
 
 # Clash 的 RESTful API
 external-controller: '127.0.0.1:9090'
@@ -81,7 +81,7 @@ dns:
      - 119.29.29.29 # 腾讯DNS
      #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
      #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-     - 114.114.114.114 # 114DNS
+     #- 114.114.114.114 # 114DNS
      - https://dns.rubyfish.cn/dns-query
   #fallback:
      #- 8.8.8.8 # 谷歌DNS
