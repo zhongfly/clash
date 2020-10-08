@@ -67,7 +67,7 @@ experimental:
 
 dns:
   enable: true # 是否启用dns false
-  ipv6: true
+  ipv6: false
   listen: ':53'
   enhanced-mode: redir-host # 模式：redir-host或fake-ip
   #fake-ip-range: 198.18.0.1/16 #
