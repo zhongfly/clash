@@ -1,3 +1,7 @@
-# 内容：Steam社区
-# 数量: 1条
+# 内容：Steam
+# 数量: 5条
 DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
