@@ -1,5 +1,5 @@
 # 内容：Steam可直连域名
-# 数量：15条
+# 数量：16条
 DOMAIN-SUFFIX,csgo.wmsj.cn
 DOMAIN-SUFFIX,dl.steam.ksyna.com
 DOMAIN-SUFFIX,dota2.wmsj.cn
@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,st.dl.pinyuncloud.com
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamstore-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampowered.com.8686c.com
