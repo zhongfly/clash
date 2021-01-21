@@ -16,4 +16,7 @@ DOMAIN-SUFFIX,steampowered.com.8686c.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
+# IPv6
 IP-CIDR6,::/0
+# SAE数字图书馆 学术
+DOMAIN-SUFFIX,sae.org
