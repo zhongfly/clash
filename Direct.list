@@ -22,3 +22,14 @@ IP-CIDR6,::/0
 DOMAIN-SUFFIX,sae.org
 DOMAIN,journals.sagepub.com
 DOMAIN,sage.cnpereading.com
+#直连进程
+PROCESS-NAME,QQ.exe
+PROCESS-NAME,TXPlatform.exe
+PROCESS-NAME,WeChat.exe
+PROCESS-NAME,WeChatApp.exe
+PROCESS-NAME,WeChatWeb.exe
+PROCESS-NAME,QQScLauncher.exe
+PROCESS-NAME,uTorrent.exe
+PROCESS-NAME,uTorrent
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,qBittorrent
