@@ -29,7 +29,5 @@ PROCESS-NAME,WeChat.exe
 PROCESS-NAME,WeChatApp.exe
 PROCESS-NAME,WeChatWeb.exe
 PROCESS-NAME,QQScLauncher.exe
-PROCESS-NAME,uTorrent.exe
-PROCESS-NAME,uTorrent
-PROCESS-NAME,qbittorrent.exe
-PROCESS-NAME,qBittorrent
+# 煎蛋
+DOMAIN-SUFFIX,jandan.net
