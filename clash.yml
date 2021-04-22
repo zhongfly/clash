@@ -74,8 +74,8 @@ dns:
   # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
   # 仅填写 DNS 服务器的 IP 地址
   default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+    - 114.114.114.114
+    - 1.2.4.8
   enhanced-mode: fake-ip # 或 redir-host
   fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
   # use-hosts: true # 查询 hosts 并返回 IP 记录
@@ -169,13 +169,14 @@ dns:
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Clash 会使用最先获得的解析记录回复 DNS 请求
   nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
 {% if exists("request.pc") %}
     - 10.0.0.11
 {% else %}
     - 114.114.114.114
+    - 117.50.10.10
 {% endif %}
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 
   # 当 fallback 参数被配置时, DNS 请求将同时发送至上方 nameserver 列表和下方 fallback 列表中配置的所有 DNS 服务器.
   # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
