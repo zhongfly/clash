@@ -174,7 +174,7 @@ dns:
 {% if exists("request.pc") %}
     - 10.0.0.11
 {% else %}
-    - 1.2.4.8
+    - 114.114.114.114
 {% endif %}
 
   # 当 fallback 参数被配置时, DNS 请求将同时发送至上方 nameserver 列表和下方 fallback 列表中配置的所有 DNS 服务器.
