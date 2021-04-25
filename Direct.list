@@ -31,6 +31,8 @@ PROCESS-NAME,WeChatWeb.exe
 PROCESS-NAME,QQScLauncher.exe
 # 煎蛋
 DOMAIN-SUFFIX,jandan.net
+# 其乐社区
+DOMAIN-SUFFIX,keylol.com
 # 拷贝漫画
 DOMAIN,alicdn2.mangafunc.fun
 DOMAIN,mirror77.mangafunc.fun
