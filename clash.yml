@@ -48,10 +48,7 @@ external-controller: '127.0.0.1:9090'
 # RESTful API 的口令 (可选)
 # secret: ""
 
-# 实验性功能
-experimental:
-  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
-  # interface-name: en0 # outbound interface name
+# interface-name: en0 # outbound interface name
 
 # 本地 SOCKS5 / HTTP(S) 服务认证
 # authentication:
@@ -64,8 +61,16 @@ experimental:
 #hosts:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
+{% if default(request.school, "") == "1" %}
 hosts:
   'vcb-s.com': 163.181.34.230
+{% endif %}
+
+profile:
+  # Store the `select` results in $HOME/.config/clash/.cache
+  # set false If you don't want this behavior
+  # when two different configurations have groups with the same name, the selected values are shared
+  store-selected: false
 
 # DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
 dns:
@@ -171,7 +176,7 @@ dns:
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Clash 会使用最先获得的解析记录回复 DNS 请求
   nameserver:
-{% if default(request.pc, "") == "1" %}
+{% if default(request.school, "") == "1" %}
     - 10.0.0.11
 {% else %}
     - 114.114.114.114
