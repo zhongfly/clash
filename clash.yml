@@ -63,7 +63,7 @@ external-controller: '127.0.0.1:9090'
 #   'alpha.clash.dev': '::1'
 {% if default(request.school, "") == "1" %}
 hosts:
-  'vcb-s.com': 163.181.34.230
+  'bbs.vcb-s.com': 47.240.95.103
 {% endif %}
 
 profile:
