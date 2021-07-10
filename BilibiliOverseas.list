@@ -1,6 +1,5 @@
 # 内容：BilibiliHMT 哔哩哔哩 海外
 # 主站
-# DOMAIN-SUFFIX,acgvideo.com
 # DOMAIN-SUFFIX,api.bilibili.com
 # DOMAIN-SUFFIX,app.bilibili.com
 # 国际版
@@ -9,3 +8,5 @@ DOMAIN-SUFFIX,biliintl.com
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
 DOMAIN,global.bilibili.com
 DOMAIN,api.global.bilibili.com
+# 海外版漫画
+DOMAIN-SUFFIX,bilibilicomics.com
