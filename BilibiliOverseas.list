@@ -6,7 +6,7 @@
 # PROCESS-NAME,com.bstar.intl
 DOMAIN-SUFFIX,biliintl.com
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
-DOMAIN,global.bilibili.com
+DOMAIN-SUFFIX,global.bilibili.com
 DOMAIN,api.global.bilibili.com
 # 海外版漫画
 DOMAIN-SUFFIX,bilibilicomics.com
