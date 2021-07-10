@@ -13,3 +13,5 @@ DOMAIN,api.bilibili.com
 DOMAIN,app.bilibili.com
 DOMAIN,manga.bilibili.com
 DOMAIN,grpc.biliapi.net
+# app视频CDN
+DOMAIN,upos-hz-mirrorakam.akamaized.net
