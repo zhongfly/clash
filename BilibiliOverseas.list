@@ -4,5 +4,6 @@
 DOMAIN-SUFFIX,api.bilibili.com
 DOMAIN-SUFFIX,app.bilibili.com
 # 国际版
+PROCESS-NAME,com.bstar.intl
 DOMAIN-SUFFIX,biliintl.com
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
